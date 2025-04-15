@@ -1,0 +1,8 @@
+SubscriptionName,ResourceGroup,Resource,Value Stream,Projects,Allocation %,latestDate
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-dev,,DDH 1.0,CDE,60.0,2025-04-09
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-dev,,DDH 1.0,IIQ,40.0,2025-04-09
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-sit,,DDH 1.0,CDE,60.0,2025-04-02
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-sit,,DDH 1.0,IIQ,20.0,2025-04-02
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-sit,,DDH 1.0,Marketing Catalyst,20.0,2025-04-02
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-uat,,DDH 1.0,CDE,50.0,2025-04-02
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-uat,,DDH 1.0,Marketing Catalyst,50.0,2025-04-02

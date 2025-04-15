@@ -1,0 +1,3 @@
+SubscriptionName,ResourceGroup,Resource,Value Stream,Projects,Allocation %
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-dev,,DDH 1.0,CDE,60
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-dev,,DDH 1.0,IIQ,40

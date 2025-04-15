@@ -1,0 +1,4 @@
+v1
+{"path":"file:///Users/lordgrimm32/Documents/CS/DataEngineering/main/projects/Resource-group-billing-pipeline/data/01-raw-extracted-data/01-billing-reports/20250402-Billing-Report-20250104.csv","timestamp":1743606512908,"batchId":0}
+{"path":"file:///Users/lordgrimm32/Documents/CS/DataEngineering/main/projects/Resource-group-billing-pipeline/data/01-raw-extracted-data/01-billing-reports/20250402-Billing-Report-20250106.csv","timestamp":1743606512910,"batchId":0}
+{"path":"file:///Users/lordgrimm32/Documents/CS/DataEngineering/main/projects/Resource-group-billing-pipeline/data/01-raw-extracted-data/01-billing-reports/20250402-Billing-Report-20250105.csv","timestamp":1743768940531,"batchId":0}

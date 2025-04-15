@@ -1,0 +1,7 @@
+SubscriptionName,ResourceGroup,Resource,Value Stream,Projects,Allocation %
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-dev,,DDH 1.0,CDE,80
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-dev,,DDH 1.0,IIQ,20
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-uat,,DDH 1.0,CDE; Marketing Catalyst,Equal
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-sit,,DDH 1.0,CDE,60
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-sit,,DDH 1.0,Marketing Catalyst,20
+dia-analytics-nonprod,dia-analytics-nonprod-eun-rg-ddh-pii-sit,,DDH 1.0,IIQ,20

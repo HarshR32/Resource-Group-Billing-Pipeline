@@ -1,0 +1,22 @@
+# Notebooks and docs
+notebooks/
+docs/
+
+# macOS system files
+.DS_Store
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
