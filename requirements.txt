@@ -268,3 +268,8 @@ zipp=3.21.0=pyhd8ed1ab_1
 zlib=1.3.1=h8359307_2
 zstandard=0.23.0=py312h15fbf35_1
 zstd=1.5.6=hb46c0d2_0
+
+pyspark~=3.5.5
+pandas~=2.2.2
+watchdog~=6.0.0
+python-dotenv~=1.1.0
