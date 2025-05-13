@@ -29,7 +29,7 @@ def process_project_allocation_stream(batch_df, batch_id):
 def process_billing_report_stream(batch_df, batch_id):
     
     key= 'resourceGroupName'
-    group_by_spec= { 'group_by': key, 'agg_on': 'costInbillingCurrency', 'agg_alias': 'TotalBilling'}
+    group_by_spec= { 'group_by': key, 'agg_on': 'costInBillingCurrency', 'agg_alias': 'TotalBilling'}
 
     ba_df= get_data(spark, data['intermediate']['billing-analysis'], file_schema['billing-analysis'])
 

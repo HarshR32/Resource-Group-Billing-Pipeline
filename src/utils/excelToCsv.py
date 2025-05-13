@@ -1,18 +1,19 @@
 import os
+
 import pandas as pd
 from datetime import datetime
 import re
 
 
 def excel_to_csv(excel_file_path: str, output_dirs: dir) -> None:
-    BR_pattern= r"^(?:Billing Report )?(\d{1,2}) (\w{3}) (\d{4})$"
+    br_pattern= r"^(?:Billing Report )?(\d{1,2}) (\w{3}) (\d{4})$"
     
     try:
         excel_sheets_df= pd.read_excel(excel_file_path, sheet_name=None)
         
         for sheet_name, sheet_df in excel_sheets_df.items():
             
-            ba_match= re.match(BR_pattern, sheet_name)
+            ba_match= re.match(br_pattern, sheet_name)
             ba_flag= bool(ba_match)
             
             if ba_match:

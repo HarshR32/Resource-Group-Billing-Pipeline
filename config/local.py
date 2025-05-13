@@ -1,3 +1,5 @@
+from pyspark.sql.types import *
+
 regex_pattern= {
     'billing-reports': r"-Billing-Report-(\d{8})\.csv",
     'project-allocations': r'(\d{8})-Project-Allocation\.csv'

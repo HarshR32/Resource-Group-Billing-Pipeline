@@ -3,7 +3,7 @@ from pyspark.sql.functions import sum as _sum
 
 def calculate_allocation(spark, df, agg_df):
     
-    joined_df= df.join(agg_df, df['ResourceGroup']==agg_df['resourceGroupName'], how='full_outer')
+    joined_df= df.join(agg_df, df['ResourceGroup']==agg_df['resourceGroupName'], how='left')
     
     return joined_df.withColumn('Allocation', col('TotalBilling') * col('Allocation %') / 100).drop('resourceGroupName')
 
